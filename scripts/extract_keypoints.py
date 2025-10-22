@@ -7,8 +7,8 @@ import argparse
 import csv
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--images", default="data/images/train")
-parser.add_argument("--labels", default="data/labels/train")
+parser.add_argument("--images", default="E:/Downloads/sign_language/SignVision/Sign Language Detection - data/images/train")
+parser.add_argument("--labels", default="E:/Downloads/sign_language/SignVision/Sign Language Detection - data/labels/train")
 parser.add_argument("--out_dir", default="data_processed/keypoints/train")
 parser.add_argument("--classes", default="classes.txt")
 args = parser.parse_args()
