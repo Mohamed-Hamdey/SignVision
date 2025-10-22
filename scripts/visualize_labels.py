@@ -3,8 +3,8 @@ import os, cv2
 import glob
 import matplotlib.pyplot as plt
 
-IMG_DIR = "data/images/train"
-LBL_DIR = "data/labels/train"
+IMG_DIR = "E:/Downloads/sign_language/SignVision/Sign Language Detection - data/images/train"
+LBL_DIR = "E:/Downloads/sign_language/SignVision/Sign Language Detection - data/labels/train"
 EXTS = ("*.jpg", "*.png", "*.jpeg")
 
 def read_yolo_label(path):
