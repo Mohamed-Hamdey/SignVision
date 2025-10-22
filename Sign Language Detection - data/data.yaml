@@ -1,0 +1,6 @@
+train: dataset_split/images/train
+val: dataset_split/images/val
+test: dataset_split/images/test
+
+nc: 5
+names: ['yes', 'no', 'hello', 'iloveyou', 'thankyou']
